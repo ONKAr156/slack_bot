@@ -7,15 +7,10 @@ const { App, ExpressReceiver } = require('@slack/bolt');
 const app = express();
 const PORT = process.env.PORT || 4200;
 
-// ✅ Important: Middleware must come first
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-console.log("🔍 Starting server...");
-
 // ======================
-// Slack Bolt Setup
+// 1. Slack Bolt Setup
 // ======================
+// The receiver must be defined to handle the Slack request parsing
 const receiver = new ExpressReceiver({
     signingSecret: process.env.SLACK_SIGNING_SECRET,
 });
@@ -25,45 +20,41 @@ const slackApp = new App({
     receiver: receiver,
 });
 
-// Slack Handlers
-slackApp.command('/hello', async ({ command, ack, say }) => {
-    console.log("✅ /hello command received!");
-    await ack();
-    await say(`Hello <@${command.user_id}>! 👋 Connected successfully.`);
-});
-
-slackApp.message('ping', async ({ say }) => {
-    await say('Pong! 🏓');
-});
+// ======================
+// 2. Mounting Slack Receiver
+// ======================
+// IMPORTANT: This must be mounted BEFORE your global Express middleware 
+// that might intercept and consume the raw request body.
+app.use('/slack/events', receiver.router);
 
 // ======================
-// Express Routes
+// 3. Express Middleware & Routes
 // ======================
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 app.get('/', (req, res) => {
-    res.send(`<h2>✅ Server is Running on Port ${PORT}</h2>
-              <p><a href="/notify">Click here to test /notify</a></p>`);
+    res.send(`<h2>✅ Server is Running</h2>`);
 });
 
 app.get('/notify', async (req, res) => {
-    await axios.post(process.env.SLACK_WEBHOOK_URL, {
-        text: '🚀 Test from /notify endpoint!'
-    });
-    res.send('✅ Message sent to Slack!');
+    await axios.post(process.env.SLACK_WEBHOOK_URL, { text: '🚀 Test!' });
+    res.send('✅ Sent!');
 });
 
 // ======================
-// Mount Slack Receiver - MUST BE BEFORE 404
+// 4. Slack Handlers (Defined after App init)
 // ======================
-app.use('/slack/events', receiver.router);
-console.log("✅ /slack/events route mounted successfully");
+slackApp.command('/hello', async ({ command, ack, say }) => {
+    await ack();
+    await say(`Hello <@${command.user_id}>!`);
+});
 
-// 404 Handler - Last route
+// 404 Handler - Must be at the very end
 app.use((req, res) => {
-    console.log(`❌ 404 → ${req.method} ${req.url}`);
-    res.status(404).json({ success: false, message: 'Route not found' });
+    res.status(404).json({ message: 'Route not found' });
 });
 
 app.listen(PORT, () => {
-    console.log(`🚀 Server running → http://localhost:${PORT}`);
-    console.log(`Slack Events URL → http://localhost:${PORT}/slack/events`);
+    console.log(`🚀 Server running on port ${PORT}`);
 });

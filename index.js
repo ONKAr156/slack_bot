@@ -40,5 +40,18 @@ app.post('/slack/events', (req, res) => {
     res.status(200).end(); // Always respond with 200 OK to Slack
 });
 
+// Handle Slack Slash Command
+app.post('/slack/commands', (req, res) => {
+    const { command, text, response_url } = req.body;
+
+    if (command === '/hello') {
+        // Respond immediately to the user
+        res.status(200).send({
+            text: "Hello! I received your slash command. 🚀",
+            response_type: "in_channel" // "ephemeral" to show only to the user
+        });
+    }
+});
+
 app.listen(3000, () => console.log('Server is running on port 3000'));
 //

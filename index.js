@@ -23,7 +23,7 @@ app.post('/slack/events', (req, res) => {
 
     if (command === '/hello') {
         // Respond immediately to the user
-        res.status(200).send({
+        return res.status(200).send({
             text: "Hello! I received your slash command. 🚀",
             response_type: "in_channel" // "ephemeral" to show only to the user
         });

@@ -1,11 +1,20 @@
 require('dotenv').config();
 const express = require('express');
+const axios = require('axios');
 const { WebClient } = require('@slack/web-api');
 
 const app = express();
 app.use(express.json()); // Essential for parsing Slack's JSON payloads
 
 const client = new WebClient(process.env.SLACK_BOT_TOKEN);
+app.get('/', (req, res) => {
+    res.send(`<h2>✅ Server is Running</h2>`);
+});
+
+app.get('/notify', async (req, res) => {
+    await axios.post(process.env.SLACK_WEBHOOK_URL, { text: '🚀 Test!' });
+    res.send('✅ Sent!');
+});
 
 app.post('/slack/events', (req, res) => {
     const { type, challenge, event } = req.body;

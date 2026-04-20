@@ -1,0 +1,204 @@
+{"level":"INFO","message":"[8:22:33.722 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:22:33.915 AM]: Creating Connection[id: 167c2e9a-d33e-4277-8b8d-a8bcbdc3532f] with host: your_account.snowflakecomputing.com, account: your_account, accessUrl: https://your_account.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[8:22:33.919 AM]: Connection[id: 167c2e9a-d33e-4277-8b8d-a8bcbdc3532f] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[8:22:33.921 AM]: Connection[id: 167c2e9a-d33e-4277-8b8d-a8bcbdc3532f] - connection object created successfully."}
+{"level":"INFO","message":"[8:22:33.924 AM]: Connection[id: 167c2e9a-d33e-4277-8b8d-a8bcbdc3532f] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[8:22:33.926 AM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[8:22:33.942 AM]: No client config detected."}
+{"level":"INFO","message":"[8:22:33.944 AM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[8:22:33.945 AM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[8:22:33.947 AM]: Connection[id: 167c2e9a-d33e-4277-8b8d-a8bcbdc3532f] - authentication successful using: SNOWFLAKE"}
+{"level":"ERROR","message":"[8:22:37.059 AM]: Connection[id: 167c2e9a-d33e-4277-8b8d-a8bcbdc3532f] - connection failed after 3135.24 milliseconds. Error: Request to Snowflake failed."}
+{"level":"INFO","message":"[8:22:57.759 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:22:57.763 AM]: Creating Connection[id: 2f4782d2-c4a0-4d09-901c-8a16e2692a71] with host: your_account.snowflakecomputing.com, account: your_account, accessUrl: https://your_account.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[8:22:57.764 AM]: Connection[id: 2f4782d2-c4a0-4d09-901c-8a16e2692a71] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[8:22:57.766 AM]: Connection[id: 2f4782d2-c4a0-4d09-901c-8a16e2692a71] - connection object created successfully."}
+{"level":"INFO","message":"[8:22:57.767 AM]: Connection[id: 2f4782d2-c4a0-4d09-901c-8a16e2692a71] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[8:22:57.769 AM]: Connection[id: 2f4782d2-c4a0-4d09-901c-8a16e2692a71] - authentication successful using: SNOWFLAKE"}
+{"level":"ERROR","message":"[8:22:58.717 AM]: Connection[id: 2f4782d2-c4a0-4d09-901c-8a16e2692a71] - connection failed after 950.44 milliseconds. Error: Request to Snowflake failed."}
+{"level":"INFO","message":"[8:24:13.942 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:24:13.995 AM]: Creating Connection[id: 235f9463-7acd-4831-8a77-8be8e321cf94] with host: your_account.snowflakecomputing.com, account: your_account, accessUrl: https://your_account.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[8:24:13.998 AM]: Connection[id: 235f9463-7acd-4831-8a77-8be8e321cf94] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[8:24:14.001 AM]: Connection[id: 235f9463-7acd-4831-8a77-8be8e321cf94] - connection object created successfully."}
+{"level":"INFO","message":"[8:24:14.004 AM]: Connection[id: 235f9463-7acd-4831-8a77-8be8e321cf94] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[8:24:14.006 AM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[8:24:14.023 AM]: No client config detected."}
+{"level":"INFO","message":"[8:24:14.025 AM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[8:24:14.027 AM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[8:24:14.029 AM]: Connection[id: 235f9463-7acd-4831-8a77-8be8e321cf94] - authentication successful using: SNOWFLAKE"}
+{"level":"ERROR","message":"[8:24:16.797 AM]: Connection[id: 235f9463-7acd-4831-8a77-8be8e321cf94] - connection failed after 2793.32 milliseconds. Error: Request to Snowflake failed."}
+{"level":"INFO","message":"[8:24:17.207 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:24:17.212 AM]: Creating Connection[id: 6da533b3-e061-4dd1-b5c8-55a311860f49] with host: your_account.snowflakecomputing.com, account: your_account, accessUrl: https://your_account.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[8:24:17.214 AM]: Connection[id: 6da533b3-e061-4dd1-b5c8-55a311860f49] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[8:24:17.217 AM]: Connection[id: 6da533b3-e061-4dd1-b5c8-55a311860f49] - connection object created successfully."}
+{"level":"INFO","message":"[8:24:17.219 AM]: Connection[id: 6da533b3-e061-4dd1-b5c8-55a311860f49] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[8:24:17.223 AM]: Connection[id: 6da533b3-e061-4dd1-b5c8-55a311860f49] - authentication successful using: SNOWFLAKE"}
+{"level":"ERROR","message":"[8:24:18.830 AM]: Connection[id: 6da533b3-e061-4dd1-b5c8-55a311860f49] - connection failed after 1611.04 milliseconds. Error: Request to Snowflake failed."}
+{"level":"INFO","message":"[8:24:26.168 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:24:26.170 AM]: Creating Connection[id: d07d28da-c13c-4676-818d-bf90bfd03ce5] with host: your_account.snowflakecomputing.com, account: your_account, accessUrl: https://your_account.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[8:24:26.171 AM]: Connection[id: d07d28da-c13c-4676-818d-bf90bfd03ce5] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[8:24:26.171 AM]: Connection[id: d07d28da-c13c-4676-818d-bf90bfd03ce5] - connection object created successfully."}
+{"level":"INFO","message":"[8:24:26.172 AM]: Connection[id: d07d28da-c13c-4676-818d-bf90bfd03ce5] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[8:24:26.173 AM]: Connection[id: d07d28da-c13c-4676-818d-bf90bfd03ce5] - authentication successful using: SNOWFLAKE"}
+{"level":"ERROR","message":"[8:24:27.229 AM]: Connection[id: d07d28da-c13c-4676-818d-bf90bfd03ce5] - connection failed after 1056.93 milliseconds. Error: Request to Snowflake failed."}
+{"level":"INFO","message":"[8:29:54.361 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:29:54.363 AM]: Creating Connection[id: 86c2bdac-cfdc-4d4a-9de6-d19f10698e87] with host: your_account.snowflakecomputing.com, account: your_account, accessUrl: https://your_account.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[8:29:54.363 AM]: Connection[id: 86c2bdac-cfdc-4d4a-9de6-d19f10698e87] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[8:29:54.364 AM]: Connection[id: 86c2bdac-cfdc-4d4a-9de6-d19f10698e87] - connection object created successfully."}
+{"level":"INFO","message":"[8:29:54.364 AM]: Connection[id: 86c2bdac-cfdc-4d4a-9de6-d19f10698e87] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[8:29:54.365 AM]: Connection[id: 86c2bdac-cfdc-4d4a-9de6-d19f10698e87] - authentication successful using: SNOWFLAKE"}
+{"level":"ERROR","message":"[8:29:55.525 AM]: Connection[id: 86c2bdac-cfdc-4d4a-9de6-d19f10698e87] - connection failed after 1160.93 milliseconds. Error: Request to Snowflake failed."}
+{"level":"INFO","message":"[8:36:49.288 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:36:49.314 AM]: Creating Connection[id: 93025cab-fc3c-4721-825d-f50e95ebd004] with host: your_account.snowflakecomputing.com, account: your_account, accessUrl: https://your_account.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[8:36:49.316 AM]: Connection[id: 93025cab-fc3c-4721-825d-f50e95ebd004] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[8:36:49.317 AM]: Connection[id: 93025cab-fc3c-4721-825d-f50e95ebd004] - connection object created successfully."}
+{"level":"INFO","message":"[8:36:49.318 AM]: Connection[id: 93025cab-fc3c-4721-825d-f50e95ebd004] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[8:36:49.320 AM]: Connection[id: 93025cab-fc3c-4721-825d-f50e95ebd004] - authentication successful using: SNOWFLAKE"}
+{"level":"ERROR","message":"[8:36:50.545 AM]: Connection[id: 93025cab-fc3c-4721-825d-f50e95ebd004] - connection failed after 1226.63 milliseconds. Error: Request to Snowflake failed."}
+{"level":"INFO","message":"[8:36:52.527 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:36:52.528 AM]: Creating Connection[id: 0b5713d9-5478-43e1-9ee8-f92527024367] with host: your_account.snowflakecomputing.com, account: your_account, accessUrl: https://your_account.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[8:36:52.529 AM]: Connection[id: 0b5713d9-5478-43e1-9ee8-f92527024367] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[8:36:52.529 AM]: Connection[id: 0b5713d9-5478-43e1-9ee8-f92527024367] - connection object created successfully."}
+{"level":"INFO","message":"[8:36:52.529 AM]: Connection[id: 0b5713d9-5478-43e1-9ee8-f92527024367] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[8:36:52.530 AM]: Connection[id: 0b5713d9-5478-43e1-9ee8-f92527024367] - authentication successful using: SNOWFLAKE"}
+{"level":"ERROR","message":"[8:36:53.624 AM]: Connection[id: 0b5713d9-5478-43e1-9ee8-f92527024367] - connection failed after 1089.32 milliseconds. Error: Request to Snowflake failed."}
+{"level":"INFO","message":"[8:41:03.349 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:41:03.350 AM]: Creating Connection[id: 8c3b28a7-2d04-4530-b125-ff2119d4fbec] with host: your_account.snowflakecomputing.com, account: your_account, accessUrl: https://your_account.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[8:41:03.351 AM]: Connection[id: 8c3b28a7-2d04-4530-b125-ff2119d4fbec] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[8:41:03.351 AM]: Connection[id: 8c3b28a7-2d04-4530-b125-ff2119d4fbec] - connection object created successfully."}
+{"level":"INFO","message":"[8:41:03.352 AM]: Connection[id: 8c3b28a7-2d04-4530-b125-ff2119d4fbec] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[8:41:03.352 AM]: Connection[id: 8c3b28a7-2d04-4530-b125-ff2119d4fbec] - authentication successful using: SNOWFLAKE"}
+{"level":"ERROR","message":"[8:41:04.196 AM]: Connection[id: 8c3b28a7-2d04-4530-b125-ff2119d4fbec] - connection failed after 843.75 milliseconds. Error: Request to Snowflake failed."}
+{"level":"INFO","message":"[8:41:07.672 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:41:07.673 AM]: Creating Connection[id: 9313904c-c226-44a5-81fa-97dc5d895852] with host: your_account.snowflakecomputing.com, account: your_account, accessUrl: https://your_account.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[8:41:07.673 AM]: Connection[id: 9313904c-c226-44a5-81fa-97dc5d895852] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[8:41:07.673 AM]: Connection[id: 9313904c-c226-44a5-81fa-97dc5d895852] - connection object created successfully."}
+{"level":"INFO","message":"[8:41:07.674 AM]: Connection[id: 9313904c-c226-44a5-81fa-97dc5d895852] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[8:41:07.675 AM]: Connection[id: 9313904c-c226-44a5-81fa-97dc5d895852] - authentication successful using: SNOWFLAKE"}
+{"level":"ERROR","message":"[8:41:08.750 AM]: Connection[id: 9313904c-c226-44a5-81fa-97dc5d895852] - connection failed after 1076.01 milliseconds. Error: Request to Snowflake failed."}
+{"level":"INFO","message":"[8:43:06.572 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:44:59.906 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:45:01.884 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:45:02.597 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:45:02.778 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:45:35.644 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:45:36.434 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:45:36.661 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:45:36.827 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:45:37.111 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:45:37.813 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:45:38.051 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:46:26.451 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:46:26.922 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:46:27.116 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:48:22.816 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:48:23.538 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:48:23.726 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:49:09.146 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:49:10.118 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:49:10.352 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:49:11.441 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:49:11.593 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:49:11.748 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:49:11.895 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:49:12.096 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:49:12.273 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:49:12.499 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:19.835 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:20.364 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:20.534 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:20.695 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:20.849 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:21.014 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:21.177 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:21.332 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:21.498 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:21.650 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:21.828 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:22.014 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:47.989 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:48.425 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:48.588 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:48.768 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:53:48.927 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:54:43.901 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:54:44.189 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:54:49.477 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:58:44.628 AM]: Creating new connection object"}
+{"level":"INFO","message":"[8:58:44.759 AM]: Creating Connection[id: 456daad5-334a-4fdd-b6a9-032fa8f3ae04] with host: mfepvvl-jr70205.snowflakecomputing.com, account: mfepvvl-jr70205, accessUrl: https://MFEPVVL-JR70205.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[8:58:44.762 AM]: Connection[id: 456daad5-334a-4fdd-b6a9-032fa8f3ae04] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[8:58:44.764 AM]: Connection[id: 456daad5-334a-4fdd-b6a9-032fa8f3ae04] - connection object created successfully."}
+{"level":"INFO","message":"[8:58:44.766 AM]: Connection[id: 456daad5-334a-4fdd-b6a9-032fa8f3ae04] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[8:58:44.768 AM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[8:58:44.782 AM]: No client config detected."}
+{"level":"INFO","message":"[8:58:44.783 AM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[8:58:44.784 AM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[8:58:44.786 AM]: Connection[id: 456daad5-334a-4fdd-b6a9-032fa8f3ae04] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[8:58:46.381 AM]: Connection[id: 456daad5-334a-4fdd-b6a9-032fa8f3ae04] - connection established successfully after 1615.27 milliseconds"}
+{"level":"INFO","message":"[9:09:10.398 AM]: Creating new connection object"}
+{"level":"INFO","message":"[9:09:10.401 AM]: Creating Connection[id: 971cb357-e001-43c6-9a7c-54dcfd2ff070] with host: mfepvvl-jr70205.snowflakecomputing.com, account: mfepvvl-jr70205, accessUrl: https://MFEPVVL-JR70205.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[9:09:10.402 AM]: Connection[id: 971cb357-e001-43c6-9a7c-54dcfd2ff070] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:09:10.402 AM]: Connection[id: 971cb357-e001-43c6-9a7c-54dcfd2ff070] - connection object created successfully."}
+{"level":"INFO","message":"[9:09:10.403 AM]: Connection[id: 971cb357-e001-43c6-9a7c-54dcfd2ff070] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:09:10.403 AM]: Connection[id: 971cb357-e001-43c6-9a7c-54dcfd2ff070] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:09:11.222 AM]: Connection[id: 971cb357-e001-43c6-9a7c-54dcfd2ff070] - connection established successfully after 819.17 milliseconds"}
+{"level":"INFO","message":"[9:33:21.905 AM]: Creating new connection object"}
+{"level":"INFO","message":"[9:33:21.912 AM]: Creating Connection[id: 72bad235-46b5-4d36-b915-aac760676b33] with host: mfepvvl-jr70205.snowflakecomputing.com, account: mfepvvl-jr70205, accessUrl: https://MFEPVVL-JR70205.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[9:33:21.913 AM]: Connection[id: 72bad235-46b5-4d36-b915-aac760676b33] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:33:21.913 AM]: Connection[id: 72bad235-46b5-4d36-b915-aac760676b33] - connection object created successfully."}
+{"level":"INFO","message":"[9:33:21.914 AM]: Connection[id: 72bad235-46b5-4d36-b915-aac760676b33] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:33:21.914 AM]: Connection[id: 72bad235-46b5-4d36-b915-aac760676b33] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:33:22.601 AM]: Connection[id: 72bad235-46b5-4d36-b915-aac760676b33] - connection established successfully after 686.93 milliseconds"}
+{"level":"INFO","message":"[9:33:25.053 AM]: Creating new connection object"}
+{"level":"INFO","message":"[9:33:25.055 AM]: Creating Connection[id: 74f2d8e3-8e4b-4510-b811-11e62c045ab7] with host: mfepvvl-jr70205.snowflakecomputing.com, account: mfepvvl-jr70205, accessUrl: https://MFEPVVL-JR70205.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[9:33:25.055 AM]: Connection[id: 74f2d8e3-8e4b-4510-b811-11e62c045ab7] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:33:25.056 AM]: Connection[id: 74f2d8e3-8e4b-4510-b811-11e62c045ab7] - connection object created successfully."}
+{"level":"INFO","message":"[9:33:25.056 AM]: Connection[id: 74f2d8e3-8e4b-4510-b811-11e62c045ab7] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:33:25.057 AM]: Connection[id: 74f2d8e3-8e4b-4510-b811-11e62c045ab7] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:33:25.212 AM]: Connection[id: 74f2d8e3-8e4b-4510-b811-11e62c045ab7] - connection established successfully after 156.19 milliseconds"}
+{"level":"INFO","message":"[9:33:25.522 AM]: Creating new connection object"}
+{"level":"INFO","message":"[9:33:25.524 AM]: Creating Connection[id: eb3efdcf-30da-4a74-bdbf-7ab02673713b] with host: mfepvvl-jr70205.snowflakecomputing.com, account: mfepvvl-jr70205, accessUrl: https://MFEPVVL-JR70205.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[9:33:25.524 AM]: Connection[id: eb3efdcf-30da-4a74-bdbf-7ab02673713b] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:33:25.524 AM]: Connection[id: eb3efdcf-30da-4a74-bdbf-7ab02673713b] - connection object created successfully."}
+{"level":"INFO","message":"[9:33:25.526 AM]: Connection[id: eb3efdcf-30da-4a74-bdbf-7ab02673713b] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:33:25.527 AM]: Connection[id: eb3efdcf-30da-4a74-bdbf-7ab02673713b] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:33:25.668 AM]: Connection[id: eb3efdcf-30da-4a74-bdbf-7ab02673713b] - connection established successfully after 141.92 milliseconds"}
+{"level":"INFO","message":"[9:33:26.738 AM]: Creating new connection object"}
+{"level":"INFO","message":"[9:33:26.739 AM]: Creating Connection[id: f3fdf44a-8fc6-45f1-80b5-242409b32faa] with host: mfepvvl-jr70205.snowflakecomputing.com, account: mfepvvl-jr70205, accessUrl: https://MFEPVVL-JR70205.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[9:33:26.739 AM]: Connection[id: f3fdf44a-8fc6-45f1-80b5-242409b32faa] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:33:26.740 AM]: Connection[id: f3fdf44a-8fc6-45f1-80b5-242409b32faa] - connection object created successfully."}
+{"level":"INFO","message":"[9:33:26.740 AM]: Connection[id: f3fdf44a-8fc6-45f1-80b5-242409b32faa] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:33:26.740 AM]: Connection[id: f3fdf44a-8fc6-45f1-80b5-242409b32faa] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:33:27.056 AM]: Connection[id: f3fdf44a-8fc6-45f1-80b5-242409b32faa] - connection established successfully after 316.15 milliseconds"}
+{"level":"INFO","message":"[9:36:08.315 AM]: Creating new connection object"}
+{"level":"INFO","message":"[9:36:08.541 AM]: Creating Connection[id: 4e9a26f4-e323-4aa0-82e1-06af898244a5] with host: mfepvvl-jr70205.snowflakecomputing.com, account: mfepvvl-jr70205, accessUrl: https://MFEPVVL-JR70205.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[9:36:08.542 AM]: Connection[id: 4e9a26f4-e323-4aa0-82e1-06af898244a5] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:36:08.543 AM]: Connection[id: 4e9a26f4-e323-4aa0-82e1-06af898244a5] - connection object created successfully."}
+{"level":"INFO","message":"[9:36:08.544 AM]: Connection[id: 4e9a26f4-e323-4aa0-82e1-06af898244a5] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:36:08.545 AM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:36:08.553 AM]: No client config detected."}
+{"level":"INFO","message":"[9:36:08.554 AM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:36:08.554 AM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:36:08.555 AM]: Connection[id: 4e9a26f4-e323-4aa0-82e1-06af898244a5] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:36:11.264 AM]: Connection[id: 4e9a26f4-e323-4aa0-82e1-06af898244a5] - connection established successfully after 2719.97 milliseconds"}
+{"level":"INFO","message":"[9:36:18.269 AM]: Creating new connection object"}
+{"level":"INFO","message":"[9:36:18.270 AM]: Creating Connection[id: d42e633a-f6b7-4462-bed6-2a9cc4ae32a8] with host: mfepvvl-jr70205.snowflakecomputing.com, account: mfepvvl-jr70205, accessUrl: https://MFEPVVL-JR70205.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[9:36:18.271 AM]: Connection[id: d42e633a-f6b7-4462-bed6-2a9cc4ae32a8] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:36:18.271 AM]: Connection[id: d42e633a-f6b7-4462-bed6-2a9cc4ae32a8] - connection object created successfully."}
+{"level":"INFO","message":"[9:36:18.272 AM]: Connection[id: d42e633a-f6b7-4462-bed6-2a9cc4ae32a8] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:36:18.272 AM]: Connection[id: d42e633a-f6b7-4462-bed6-2a9cc4ae32a8] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:36:18.993 AM]: Connection[id: d42e633a-f6b7-4462-bed6-2a9cc4ae32a8] - connection established successfully after 721.51 milliseconds"}
+{"level":"INFO","message":"[9:36:54.982 AM]: Creating new connection object"}
+{"level":"INFO","message":"[9:36:54.983 AM]: Creating Connection[id: a14ccd7d-87bb-4c8f-9ac7-43f8611509c6] with host: mfepvvl-jr70205.snowflakecomputing.com, account: mfepvvl-jr70205, accessUrl: https://MFEPVVL-JR70205.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[9:36:54.984 AM]: Connection[id: a14ccd7d-87bb-4c8f-9ac7-43f8611509c6] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:36:54.984 AM]: Connection[id: a14ccd7d-87bb-4c8f-9ac7-43f8611509c6] - connection object created successfully."}
+{"level":"INFO","message":"[9:36:54.985 AM]: Connection[id: a14ccd7d-87bb-4c8f-9ac7-43f8611509c6] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:36:54.985 AM]: Connection[id: a14ccd7d-87bb-4c8f-9ac7-43f8611509c6] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:36:55.708 AM]: Connection[id: a14ccd7d-87bb-4c8f-9ac7-43f8611509c6] - connection established successfully after 723.49 milliseconds"}
+{"level":"INFO","message":"[11:06:14.693 AM]: Creating new connection object"}
+{"level":"INFO","message":"[11:06:14.743 AM]: Creating Connection[id: 27dca269-285c-43de-bd12-a97cadad5fb7] with host: mfepvvl-jr70205.snowflakecomputing.com, account: mfepvvl-jr70205, accessUrl: https://MFEPVVL-JR70205.snowflakecomputing.com, user: ONKARTEST1, role: ACCOUNTADMIN, database: MY_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[11:06:14.744 AM]: Connection[id: 27dca269-285c-43de-bd12-a97cadad5fb7] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: slack-express-demo, client name: snowflake-sdk, client version: 2.4.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[11:06:14.745 AM]: Connection[id: 27dca269-285c-43de-bd12-a97cadad5fb7] - connection object created successfully."}
+{"level":"INFO","message":"[11:06:14.747 AM]: Connection[id: 27dca269-285c-43de-bd12-a97cadad5fb7] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[11:06:14.749 AM]: Connection[id: 27dca269-285c-43de-bd12-a97cadad5fb7] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[11:06:15.615 AM]: Connection[id: 27dca269-285c-43de-bd12-a97cadad5fb7] - connection established successfully after 867.94 milliseconds"}
